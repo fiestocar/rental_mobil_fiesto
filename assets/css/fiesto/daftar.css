@@ -1,0 +1,42 @@
+.wrapper{
+	padding: 40px 0;
+}
+/*==========================*/
+.kata-judul{
+	color: #f39c12;
+	display: block;
+	text-align: center;
+}
+.form{
+	width: 500px;
+}
+.form label{
+	margin: 0;
+	color: #2c3e50;
+	font-weight: bold;
+}
+.form .form-group{
+	margin-bottom: 6px;
+}
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="text"]
+{
+	padding: 3px 6px;
+	border-radius: 0;
+	border: 2px solid #f39c12;
+}
+.penting{
+	color: red;
+}
+.tombol{
+  background: none;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  font-weight: bold;
+  border-radius: 0;
+}
+.tombol:hover{
+  background: #f39c12;
+  color: white;
+}

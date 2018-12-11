@@ -1,0 +1,140 @@
+h1,h2,h3,h4{
+  color: #2c3e50;
+}
+/*====== HEADER =============*/
+.site-header:nth-child(1){
+  background-color:#f39c12;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header:nth-child(2){
+  background-color:#2c3e50;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header .text-header{
+  padding-right: 10px;
+  color: #f39c12;
+  font-weight: bold;
+  transition: ease-in-out color .15s;
+}
+.site-header .text-header:hover {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+/*========= Logo*/
+.logo{
+  width: 64px;
+  height: 64px;
+  background: black;
+}
+/*====== Akhir dari logo*/
+@media(max-width: 768){
+	.navbar-brand{
+		text-align: center;
+	}
+}
+/*==========================*/
+
+/*====== BODY =============*/
+.wrapper{
+}
+.container {
+  max-width: 960px;
+}
+.tombol-gabung{
+  border-radius: 0;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  outline: none;
+}
+.tombol-gabung:hover{
+  background: #f39c12;
+  color: white;
+}
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+/*==========================*/
+
+/*========= UTILITAS TAMBAHAN ==========*/
+.garis{
+  display: block;
+  background: #2c3e50;
+  width: 100%;
+  height: 3px;
+}
+/*==========================*/
+
+/*========= Dropdowm Tombol Akun ==========*/
+.tombol-akun{
+  border-radius: 0;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  outline: none;
+}
+.tombol-akun:hover{
+  background: #f39c12;
+  color: white;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 38px;
+  right: -2px;
+  background-color: #f39c12;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 0;
+  z-index: 1;
+}
+.dropdown-content a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2c3e50;
+  transition: 0.3s;
+}
+.dropdown-content p{
+  margin: 0;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.dropdown-content a:hover{
+  background-color: #2c3e50;
+  color: #f39c12;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*==========================*/
+
+/*========= FOOTER ==========*/
+.langganan{
+  background: #34495e;
+}
+.tombol-langganan{
+  background: none;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+}
+.tombol-langganan:hover{
+  background: #f39c12;
+  color: white;
+}
+footer{
+  background: #2c3e50;
+  color: #f39c12;
+}
+/*==========================

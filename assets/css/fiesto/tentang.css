@@ -1,0 +1,17 @@
+.wrapper{
+	padding: 40px 0;
+}
+/*====================================*/
+.nama p{
+	margin: 0;
+	font-weight: bold;
+	color: #2c3e50;
+}
+.gambar{
+	width: 100px;
+	height: 100px;
+}
+.gambar img{
+	width: 100%;
+	height: 100%;
+}

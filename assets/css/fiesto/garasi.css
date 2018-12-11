@@ -1,0 +1,57 @@
+.wrapper{
+	padding: 20px 0;
+}
+/*========================================*/
+.garasi{
+  color: #2c3e50;
+}
+.card{
+	border-radius: 0;
+}
+.kembali{
+	border: 2px solid #3498db;
+}
+.bayar{
+	border: 2px solid #e74c3c;
+}
+.gambar{
+	width: 124px;
+	height: 124px;
+}
+.gambar img{
+	width: 100%;
+	height: 100%;
+}
+.detail h5,.detail p{
+	margin: 0;
+}
+.garasi .harga{
+	color: #e67e22;
+}
+.garasi .tanggal-pemisah{
+	color: #e67e22;
+}
+.tombol-kembali{
+  margin: 0.8rem 0;
+  background: none;
+  border: 2px solid #3498db;
+  color: #3498db;
+  font-weight: bold;
+  border-radius: 0;
+}
+.tombol-kembali:hover{
+  background: #3498db;
+  color: white;
+}
+.tombol-bayar{
+  margin: 0.8rem 0;
+  background: none;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  font-weight: bold;
+  border-radius: 0;
+}
+.tombol-bayar:hover{
+  background: #e74c3c;
+  color: white;
+}

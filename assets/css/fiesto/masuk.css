@@ -1,0 +1,54 @@
+.wrapper{
+	padding: 80px 0;
+}
+/*==========================*/
+.kata-judul{
+	color: #2c3e50;
+	display: block;
+	text-align: center;
+}
+.form{
+	width: 250px;
+}
+.form label{
+	margin: 0;
+	color: #2c3e50;
+}
+.form .form-group{
+	margin-bottom: 6px;
+}
+.form input[type="email"],
+.form input[type="password"]
+{
+	padding: 3px 6px;
+	border-radius: 0;
+	border: 2px solid #2c3e50;
+}
+.atau{
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.tombol{
+  background: none;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  font-weight: bold;
+  border-radius: 0;
+}
+.tombol:hover{
+  background: #2c3e50;
+  color: white;
+}
+.tombol-daftar{
+  background: none;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  font-weight: bold;
+  border-radius: 0;
+}
+.tombol-daftar:hover{
+  background: #f39c12;
+  color: white;
+}
